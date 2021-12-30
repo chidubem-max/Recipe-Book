@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Recipe Book</string>
     <string name="noti_msg_1">Adebayo Apercu sent you a message</string>
+    <!-- strings.xml -->
+    <string name="placeholder">What recipe are you looking for?</string>
+    <string name="placeholder_hint">What Ingredients are you looking for?</string>
 </resources>

@@ -5,7 +5,9 @@
     android:height="513dp"
     android:viewportWidth="360"
     android:viewportHeight="513">
+
     <solid android:color="@color/white" />
+
     <corners android:topLeftRadius="15dp"
         android:topRightRadius="15dp"/>
 
