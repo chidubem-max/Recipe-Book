@@ -310,13 +310,12 @@
         </RelativeLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerVIew"
+            android:id="@+id/notification_recyclerVIew"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="vertical"
             app:layout_constraintTop_toBottomOf="@id/notification_bar"
             tools:itemCount="5"
-            tools:layout_editor_absoluteX="-54dp"
             tools:listitem="@layout/notification_view">
 
 
