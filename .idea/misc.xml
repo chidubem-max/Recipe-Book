@@ -5,12 +5,15 @@
       <map>
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/avatar.xml" value="0.340625" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/bubble.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/card.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/card_bg.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/card_recipe.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/edit_text_bg.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/ellispe_1.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/ellispe_2.xml" value="0.340625" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/grid_create_btn.xml" value="0.340625" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/ic_grid_create_btn.xml" value="0.17777777777777778" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/ic_recipe_btn.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/input.xml" value="0.340625" />
@@ -23,8 +26,9 @@
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_book_home.xml" value="0.2977777777777778" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_book_login.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_book_recipe_pg_1.xml" value="0.32447916666666665" />
-        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_page_1.xml" value="0.3120471014492754" />
-        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_page_2.xml" value="0.3079710144927536" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_networks.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_page_1.xml" value="0.1" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/recipe_page_2.xml" value="0.4" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/search_file.xml" value="0.2977777777777778" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/searcjh_view.xml" value="0.3079710144927536" />
       </map>

@@ -6,5 +6,6 @@
     <string name="placeholder_hint">What Ingredients are you looking for?</string>
     <string name="sender">Adebayo Apercu</string>
     <string name="message">A selection of chicken dishes served together ...</string>
+    <string name="text_peppers"><![CDATA[Sausage & Peppers Group]]></string>
 
 </resources>
