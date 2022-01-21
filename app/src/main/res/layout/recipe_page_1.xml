@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -126,252 +127,258 @@
 
             <TextView
                 android:id="@+id/search_history_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="My Search History"
                 style="@style/placeholder"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="126dp"
+                android:layout_height="33dp"
                 android:layout_marginLeft="35dp"
-                android:layout_marginTop="23dp"/>
+                android:layout_marginTop="23dp"
+                android:text="My Search History"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_search_arrow"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="31dp"
                 android:layout_marginRight="33dp"
-                />
+                android:background="@drawable/ic_search_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <View
                 android:id="@+id/line_1"
                 android:layout_width="match_parent"
                 android:layout_height="1.5dp"
-                android:layout_marginTop="18dp"
-                android:background="#8894A2"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="18dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/search_history_text"
+                android:background="#8894A2"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/search_history_text" />
 
             <TextView
                 android:id="@+id/fav_recipe_text"
+                style="@style/placeholder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My Favorites Recipes"
-                style="@style/placeholder"
-                app:layout_constraintTop_toBottomOf="@id/line_1"
-                app:layout_constraintLeft_toLeftOf="parent"
                 android:layout_marginLeft="35dp"
-                android:layout_marginTop="18dp"/>
+                android:layout_marginTop="18dp"
+                android:text="My Favorites Recipes"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_1" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_search_arrow"
-                app:layout_constraintTop_toTopOf="@id/line_1"
-                app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="27.5dp"
                 android:layout_marginRight="33dp"
-                />
+                android:background="@drawable/ic_search_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/line_1" />
+
             <View
                 android:id="@+id/line_2"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
-                android:layout_marginTop="16dp"
-                android:background="#8894A2"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/fav_recipe_text"
+                android:background="#8894A2"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/fav_recipe_text" />
 
             <TextView
                 android:id="@+id/easy_mexican_text"
+                style="@style/placeholder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Easy Mexican Casserole"
-                style="@style/placeholder"
-                app:layout_constraintTop_toBottomOf="@id/line_2"
-                app:layout_constraintLeft_toLeftOf="parent"
                 android:layout_marginLeft="35dp"
-                android:layout_marginTop="18dp"/>
+                android:layout_marginTop="18dp"
+                android:text="Easy Mexican Casserole"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_2" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_search_arrow"
-                app:layout_constraintTop_toTopOf="@id/line_2"
-                app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="27.5dp"
                 android:layout_marginRight="33dp"
-                />
+                android:background="@drawable/ic_search_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/line_2" />
+
             <View
                 android:id="@+id/line_3"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
-                android:layout_marginTop="16dp"
-                android:background="#8894A2"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/easy_mexican_text"
+                android:background="#8894A2"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/easy_mexican_text" />
 
 
             <TextView
                 android:id="@+id/thai_balls_text"
+                style="@style/placeholder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Thai Chicken Balls"
-                style="@style/placeholder"
-                app:layout_constraintTop_toBottomOf="@id/line_3"
-                app:layout_constraintLeft_toLeftOf="parent"
                 android:layout_marginLeft="35dp"
-                android:layout_marginTop="18dp"/>
+                android:layout_marginTop="18dp"
+                android:text="Thai Chicken Balls"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_3" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_search_arrow"
-                app:layout_constraintTop_toTopOf="@id/line_3"
-                app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="27.5dp"
                 android:layout_marginRight="33dp"
-                />
+                android:background="@drawable/ic_search_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/line_3" />
+
             <View
                 android:id="@+id/line_4"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
-                android:layout_marginTop="16dp"
-                android:background="#8894A2"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/thai_balls_text"
+                android:background="#8894A2"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/thai_balls_text" />
 
 
             <TextView
                 android:id="@+id/pork_chops_text"
+                style="@style/placeholder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Honey Mustard Pork Chops"
-                style="@style/placeholder"
-                app:layout_constraintTop_toBottomOf="@id/line_4"
-                app:layout_constraintLeft_toLeftOf="parent"
                 android:layout_marginLeft="35dp"
-                android:layout_marginTop="18dp"/>
+                android:layout_marginTop="18dp"
+                android:text="Honey Mustard Pork Chops"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_4" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_search_arrow"
-                app:layout_constraintTop_toTopOf="@id/line_4"
-                app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="27.5dp"
                 android:layout_marginRight="33dp"
-                />
+                android:background="@drawable/ic_search_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/line_4" />
+
             <View
                 android:id="@+id/line_5"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
-                android:layout_marginTop="16dp"
-                android:background="#8894A2"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/pork_chops_text"
+                android:background="#8894A2"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/pork_chops_text" />
 
 
             <TextView
                 android:id="@+id/salsa_rice_text"
+                style="@style/placeholder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salsa Chicken Rice Casserole"
-                style="@style/placeholder"
-                app:layout_constraintTop_toBottomOf="@id/line_5"
-                app:layout_constraintLeft_toLeftOf="parent"
                 android:layout_marginLeft="35dp"
-                android:layout_marginTop="18dp"/>
+                android:layout_marginTop="18dp"
+                android:text="Salsa Chicken Rice Casserole"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_5" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_search_arrow"
-                app:layout_constraintTop_toTopOf="@id/line_5"
-                app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="27.5dp"
                 android:layout_marginRight="33dp"
-                />
+                android:background="@drawable/ic_search_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/line_5" />
+
             <View
                 android:id="@+id/line_6"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
-                android:layout_marginTop="16dp"
-                android:background="#8894A2"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/salsa_rice_text"
+                android:background="#8894A2"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/salsa_rice_text" />
 
 
             <TextView
                 android:id="@+id/roll_text"
+                style="@style/placeholder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Banana Cinnamon Roll Casserole"
-                style="@style/placeholder"
-                app:layout_constraintTop_toBottomOf="@id/line_6"
-                app:layout_constraintLeft_toLeftOf="parent"
                 android:layout_marginLeft="35dp"
-                android:layout_marginTop="18dp"/>
+                android:layout_marginTop="18dp"
+                android:text="Banana Cinnamon Roll Casserole"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_6" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_search_arrow"
-                app:layout_constraintTop_toTopOf="@id/line_6"
-                app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="27.5dp"
                 android:layout_marginRight="33dp"
-                />
+                android:background="@drawable/ic_search_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/line_6" />
+
             <View
                 android:id="@+id/line_7"
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:layout_marginTop="16dp"
-                android:background="#8894A2"
                 android:layout_marginLeft="20dp"
-                android:visibility="invisible"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/roll_text"
+                android:background="#8894A2"
+                android:visibility="invisible"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
-
+                app:layout_constraintTop_toBottomOf="@id/roll_text" />
 
 
             <TextView
                 android:id="@+id/explore_text"
+                style="@style/explore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/line_7"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginStart="109dp"
                 android:layout_marginTop="36dp"
                 android:layout_marginEnd="106dp"
-                android:layout_marginStart="109dp"
                 android:text="Explore more recipes"
-                style="@style/explore" />
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_7" />
 
             <View
                 android:id="@+id/underline"
                 android:layout_width="145dp"
                 android:layout_height="2dp"
-                android:layout_marginTop="3dp"
-                android:background="#34A853"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="20dp"
-                app:layout_constraintTop_toBottomOf="@id/explore_text"
+                android:background="#34A853"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/explore_text" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

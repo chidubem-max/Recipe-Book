@@ -6,6 +6,25 @@
     <string name="placeholder_hint">What Ingredients are you looking for?</string>
     <string name="sender">Adebayo Apercu</string>
     <string name="message">A selection of chicken dishes served together ...</string>
-    <string name="text_peppers"><![CDATA[Sausage & Peppers Group]]></string>
+    <string name="text_peppers"><![CDATA[Sausage & \n Peppers Group]]></string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="recipe_book">Recipe Book</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="login_with">Login With</string>
+    <string name="or">or</string>
+    <string name="welcome_david">Welcome David</string>
+    <string name="recipes">Recipes</string>
+    <string name="chats">Chats</string>
+    <string name="friends">Friends</string>
+    <string name="favourites">Favourites</string>
+    <string name="upload">Upload</string>
+    <string name="notifications">Notifications</string>
+    <string name="clear_notifications">Clear notifications</string>
+    <string name="text">Combining data, design, and machine learning to build \n intelligent products and services that improve people\'s lives.</string>
+
 
 </resources>

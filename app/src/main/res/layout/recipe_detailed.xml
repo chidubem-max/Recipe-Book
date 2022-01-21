@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="0dp"
+
+    >
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/details"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp">
+
+
+    <ImageButton
+        android:id="@+id/chats_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/recipe_text_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_margin_start"
+        android:layout_marginTop="25dp"
+        style="@style/recipe_title"
+        android:text="Waffle Berries Closeup"
+        app:layout_constraintTop_toBottomOf="@id/chats_back_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_receipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="Recipe By "
+        app:layout_constraintTop_toBottomOf="@id/recipe_text_header"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/text_receipt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="#34A853"
+        app:layout_constraintTop_toBottomOf="@id/recipe_text_header"
+        app:layout_constraintStart_toEndOf="@id/text_receipt"
+        android:text="Collins `Damawa"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chats_back_btn"/>
+
+
+    <ImageView
+        android:id="@+id/star_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_receipt"/>
+
+
+
+    <ImageView
+        android:id="@+id/star_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintStart_toEndOf="@id/star_one"
+        app:layout_constraintTop_toBottomOf="@id/text_receipt"/>
+
+    <ImageView
+        android:id="@+id/star_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintStart_toEndOf="@id/star_two"
+        app:layout_constraintTop_toBottomOf="@id/text_receipt"/>
+
+    <ImageView
+        android:id="@+id/star_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintStart_toEndOf="@id/star_three"
+        app:layout_constraintTop_toBottomOf="@id/text_receipt"/>
+
+    <ImageView
+        android:id="@+id/star_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintStart_toEndOf="@id/star_four"
+        app:layout_constraintTop_toBottomOf="@id/text_receipt"/>
+
+    <ImageView
+        android:id="@+id/photo_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/photo"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/star_five"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/photo_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/photo_one"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/star_five"
+        app:layout_constraintStart_toEndOf="@id/photo_one"
+        />
+
+
+    <ImageView
+        android:id="@+id/photo_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/photo_two"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/photo_two"
+        app:layout_constraintStart_toEndOf="@id/photo_one"
+        />
+
+    <ImageView
+        android:id="@+id/photo_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/photo_three"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/photo_two"
+        app:layout_constraintStart_toEndOf="@id/photo_three"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+6"
+        app:layout_constraintTop_toTopOf="@id/photo_four"
+        app:layout_constraintStart_toStartOf="@id/photo_four"
+        android:layout_marginTop="37dp"
+        android:layout_marginStart="32dp"
+        android:textColor="#FFFFFF"/>
+
+
+    <ImageView
+        android:id="@+id/friends_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/friend_box"
+        android:elevation="20dp"
+        app:layout_constraintTop_toBottomOf="@id/photo_one"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate Recipe"
+        android:elevation="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="@id/friends_box"
+        app:layout_constraintStart_toStartOf="@id/friends_box"/>
+
+
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/friends_box"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Ingredients"
+        android:textColor="#010205"
+        android:textSize="12dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <ImageView
+        android:id="@+id/no_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group__1"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ingredients"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/no_one"
+        app:layout_constraintTop_toBottomOf="@id/ingredients"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:text="1/2 cup water"
+        style="@style/some_id"
+        />
+
+    <ImageView
+        android:id="@+id/no_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group_2"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_one"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/no_two"
+        app:layout_constraintTop_toBottomOf="@id/no_one"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:text="1/2 cup water"
+        style="@style/some_id"
+        />
+
+    <ImageView
+        android:id="@+id/no_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group__3_"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_two"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/no_three"
+        app:layout_constraintTop_toBottomOf="@id/no_two"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:text="1/2 cup water"
+        style="@style/some_id"
+        />
+    <ImageView
+        android:id="@+id/no_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group_4"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_three"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/no_two"
+        app:layout_constraintTop_toBottomOf="@id/no_three"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:text="1/2 cup water"
+        style="@style/some_id"
+        />
+
+    <ImageView
+        android:id="@+id/no_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group__5_"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_four"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/no_two"
+        app:layout_constraintTop_toBottomOf="@id/no_four"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:text="1/2 cup water"
+        style="@style/some_id"
+        />
+
+    <ImageView
+        android:id="@+id/no_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group__6_"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_five"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/no_two"
+        app:layout_constraintTop_toBottomOf="@id/no_five"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:text="1/2 cup water"
+        style="@style/some_id"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/directions_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#34A853"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/no_six"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cornerRadius="10dp"
+        android:text="See directions for preparation"
+        />
+
+    <ImageView
+        android:id="@+id/gray_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/directions_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/gray_bg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 Similar Recipes to try out"
+        style="@style/forgot_pass"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toStartOf="@id/gray_bg"
+        app:layout_constraintTop_toTopOf="@id/gray_bg"/>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
