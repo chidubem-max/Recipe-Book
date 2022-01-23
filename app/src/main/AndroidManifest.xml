@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecipeBook">
         <activity
+            android:name=".RecipeOne"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeDetailed"
+            android:exported="false" />
+        <activity
+            android:name=".Favorites"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Friends"
+            android:exported="false" />
+        <activity
+            android:name=".SearchResults"
+            android:exported="false" />
+        <activity
+            android:name=".Networks"
+            android:exported="false" />
+        <activity
+            android:name=".OpenedChats"
+            android:exported="false" />
+        <activity
+            android:name=".Chats"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeTwo"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

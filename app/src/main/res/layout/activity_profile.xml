@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Profile">
+
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/profile_bg"/>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="@id/profile"
+        app:layout_constraintTop_toTopOf="@id/profile" />
+
+    <ImageView
+        android:id="@+id/edit_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_bg"
+        app:layout_constraintEnd_toEndOf="@id/profile"
+        app:layout_constraintTop_toTopOf="@id/profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:text="Edit"
+        android:textColor="#414144"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/edit_bg"
+        app:layout_constraintTop_toTopOf="@id/edit_bg" />
+
+    <ImageView
+        android:id="@+id/profile_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/avi_1"
+        app:layout_constraintEnd_toEndOf="@id/profile"
+        app:layout_constraintStart_toStartOf="@id/profile"
+        app:layout_constraintTop_toBottomOf="@id/edit_bg" />
+
+    <TextView
+        android:id="@+id/profile_text"
+        style="@style/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="David Opeyemi"
+        app:layout_constraintEnd_toEndOf="@id/profile_icon"
+        app:layout_constraintStart_toStartOf="@id/profile_icon"
+        app:layout_constraintTop_toBottomOf="@id/profile_icon" />
+
+
+    <TextView
+        android:id="@+id/networks_count"
+        style="@style/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="80"
+        app:layout_constraintEnd_toEndOf="@id/profile"
+        app:layout_constraintStart_toStartOf="@id/profile"
+        app:layout_constraintTop_toBottomOf="@id/profile_text" />
+
+    <TextView
+        android:id="@+id/networks_text"
+        style="@style/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Networks"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/networks_count"
+        app:layout_constraintStart_toStartOf="@id/networks_count"
+        app:layout_constraintTop_toBottomOf="@id/networks_count" />
+
+
+    <TextView
+        android:id="@+id/friends_count"
+        style="@style/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="1293"
+        app:layout_constraintEnd_toStartOf="@id/networks_count"
+        app:layout_constraintStart_toStartOf="@id/profile"
+        app:layout_constraintTop_toBottomOf="@id/profile_text" />
+
+    <TextView
+        android:id="@id/friends_text"
+        style="@style/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Friends"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/friends_count"
+        app:layout_constraintStart_toStartOf="@id/friends_count"
+        app:layout_constraintTop_toBottomOf="@id/friends_count" />
+
+
+    <TextView
+        android:id="@+id/uploads_count"
+        style="@style/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="124"
+        app:layout_constraintEnd_toEndOf="@id/profile"
+        app:layout_constraintStart_toEndOf="@id/networks_count"
+        app:layout_constraintTop_toBottomOf="@id/profile_text"
+
+        />
+
+    <TextView
+        android:id="@+id/uploads_text"
+        style="@style/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Uploads"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/uploads_count"
+        app:layout_constraintStart_toStartOf="@id/uploads_count"
+        app:layout_constraintTop_toBottomOf="@id/uploads_count" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/profile_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/profile_mask"
+        app:layout_constraintEnd_toEndOf="@id/profile"
+        app:layout_constraintStart_toStartOf="@id/profile"
+        app:layout_constraintTop_toBottomOf="@id/networks_text">
+
+
+        <TextView
+            android:id="@+id/about_header"
+            style="@style/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="About"
+            app:layout_constraintStart_toStartOf="@id/profile_mask"
+            app:layout_constraintTop_toTopOf="@id/profile_mask" />
+
+
+        <TextView
+            android:id="@+id/about_text"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/text"
+            app:layout_constraintStart_toStartOf="@id/profile_mask"
+            app:layout_constraintTop_toBottomOf="@id/about_header" />
+
+
+        <TextView
+            android:id="@+id/likes_header"
+            style="@style/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Likes"
+            app:layout_constraintStart_toStartOf="@id/profile_mask"
+            app:layout_constraintTop_toBottomOf="@id/about_text" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

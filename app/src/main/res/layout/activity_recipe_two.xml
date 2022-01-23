@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RecipeTwo">
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/recipe_bg"
+        android:background="@drawable/recipe_ii_bg"
         />
 
 
@@ -43,7 +43,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="33dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/ic_swipe"
+                android:background="@drawable/ic_swipe_ii"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -82,7 +82,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="18dp"
             android:lineSpacingExtra="13sp"
-            android:text="Search by Recipe"
+            android:text="Search by Ingredients"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/nav_bar" />
 
@@ -96,7 +96,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/recipe_search"
-            android:hint="@string/placeholder"
+            android:hint="@string/placeholder_hint"
             android:inputType="text"
             android:paddingLeft="12dp"
             android:paddingRight="12dp"
@@ -121,6 +121,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="208dp"
             android:background="@drawable/card_recipe"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/search_edit_text">
@@ -128,8 +129,8 @@
             <TextView
                 android:id="@+id/search_history_text"
                 style="@style/placeholder"
-                android:layout_width="126dp"
-                android:layout_height="33dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="23dp"
                 android:text="My Search History"

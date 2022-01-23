@@ -29,8 +29,19 @@
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/rectangle_2.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/drawable/remove_search.xml" value="0.340625" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout-land/recipe_book_login.xml" value="0.27469135802469136" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_chats.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_favorites.xml" value="0.3104166666666667" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_friends.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_home.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_main.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_networks.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_opened_chats.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_profile.xml" value="0.3104166666666667" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_recipe_detailed.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_recipe_one.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_recipe_two.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_search_results.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/activity_sign_up.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/chats_recipe.xml" value="0.2977777777777778" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/chats_views.xml" value="0.2977777777777778" />
         <entry key="..\:/Users/onyeu/AndroidStudioProjects/RecipeBook/app/src/main/res/layout/notification_view.xml" value="0.2977777777777778" />
