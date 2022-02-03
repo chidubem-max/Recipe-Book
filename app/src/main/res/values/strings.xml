@@ -25,6 +25,28 @@
     <string name="notifications">Notifications</string>
     <string name="clear_notifications">Clear notifications</string>
     <string name="text">Combining data, design, and machine learning to build \n intelligent products and services that improve people\'s lives.</string>
-
+    <string name="search_by_recipe">Search by Recipe</string>
+    <string name="my_search_history">My Search History</string>
+    <string name="my_favorites_recipes">My Favorites Recipes</string>
+    <string name="easy_mexican_casserole">Easy Mexican Casserole</string>
+    <string name="thai_chicken_balls">Thai Chicken Balls</string>
+    <string name="honey_mustard_pork_chops">Honey Mustard Pork Chops</string>
+    <string name="salsa_chicken_rice_casserole">Salsa Chicken Rice Casserole</string>
+    <string name="banana_cinnamon_roll_casserole">Banana Cinnamon Roll Casserole</string>
+    <string name="explore_more_recipes">Explore more recipes</string>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
 
 </resources>
