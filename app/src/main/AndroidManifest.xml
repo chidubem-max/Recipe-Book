@@ -31,27 +31,28 @@
             android:name=".Networks"
             android:exported="false" />
         <activity
-            android:name=".OpenedChats"
+            android:name=".openChats.OpenedChatsActivity"
             android:exported="false" />
         <activity
-            android:name=".Chats"
+            android:name=".chats.ChatsActivity"
             android:exported="false" />
         <activity
             android:name=".RecipeTwo"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".home.HomeActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".SignUp"
-            android:exported="false" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"

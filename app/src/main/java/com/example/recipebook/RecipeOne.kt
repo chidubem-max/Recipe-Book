@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.example.recipebook.home.HomeActivity
 
 class RecipeOne : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +13,7 @@ class RecipeOne : AppCompatActivity() {
 
         val backBtn =findViewById<ImageButton>(R.id.back_btn)
         backBtn.setOnClickListener {
-            startActivity(Intent(this, Home::class.java))
+            startActivity(Intent(this, HomeActivity::class.java))
         }
     }
 }

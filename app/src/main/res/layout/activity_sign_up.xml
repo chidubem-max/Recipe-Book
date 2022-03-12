@@ -52,6 +52,7 @@
         app:layout_constraintTop_toBottomOf="@id/last_time_edit_text"
         app:layout_constraintStart_toStartOf="@id/last_time_edit_text"
         app:layout_constraintEnd_toEndOf="@id/last_time_edit_text" />
+
     <EditText
         android:id="@+id/confirm_email_edit_text"
         android:layout_width="0dp"
@@ -67,57 +68,74 @@
         app:layout_constraintStart_toStartOf="@id/last_time_edit_text"
         app:layout_constraintEnd_toEndOf="@id/last_time_edit_text" />
 
+
     <TextView
-        android:id="@+id/d_o_b"
+        android:id="@+id/date_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="25dp"
-        android:text="Date of Birth:"
+        android:textSize="18sp"
+        tools:text="2/22/22"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/confirm_email_edit_text"
-        app:layout_constraintStart_toStartOf="parent"
         />
 
-
-    <Spinner
-        android:id="@+id/spMonths"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/d_o_b"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="20dp"
-        android:entries="@array/months"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:spinnerMode="dropdown"/>
+       <Button
+           android:id="@+id/date_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Date of Birth"
+           android:layout_marginTop="16dp"
+           android:layout_marginStart="30dp"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/confirm_email_edit_text"/>
 
 
-    <RadioGroup
+
+
+
+
+    <TextView
         android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/spMonths"
+        android:text="Gender:"
+        android:textColor="@color/white"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_button"/>
+
+
+    <RadioGroup
+        android:id="@+id/gender_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/gender"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="0dp">
 
         <RadioButton
             android:id="@+id/man_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Man"/>
+            android:text="Man"
+            android:layout_marginStart="10dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Woman"
-            android:layout_marginStart="20dp"/>
+            android:layout_marginStart="10dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Non-Binary"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="10dp"/>
     </RadioGroup>
 
 
@@ -125,7 +143,7 @@
         android:id="@+id/login_btn"
         android:layout_width="0dp"
         android:backgroundTint="@color/white"
-        android:text="@string/login"
+        android:text="REGISTER"
         android:textColor="@color/teal_700"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -133,6 +151,6 @@
         android:layout_marginEnd="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/gender" />
+        app:layout_constraintTop_toBottomOf="@id/gender_box" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
